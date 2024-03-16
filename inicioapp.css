@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px; /* Altura da barra de navegação */
+  }
+  
+  .nav-item {
+    color: rgb(169, 16, 207);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Alterar a cor de fundo do botão ao passar o mouse */
+  .nav-item:hover {
+    background-color: #555;
+  }
+  

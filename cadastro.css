@@ -1,0 +1,234 @@
+.site-content {
+    font-family: robot;
+    text-align: center; /* Centraliza o texto dentro da div .site-content */
+  }
+  
+  #imagemdefundo {
+    background-image: url("https://i.pinimg.com/originals/e5/d1/c7/e5d1c72c43786ad429213b3a0e07c3ff.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: 0;
+    padding: 50px 0; /* Adiciona um espaçamento de 50px no topo e 0 nas laterais */
+    min-height: 100vh;
+  }
+  
+  .textobemvindo {
+    background-color: rgba(245, 245, 245, 0.8); /* Cor whitesmoke com 80% de opacidade */
+    color: #4b0082;
+    margin: auto; /* Centraliza horizontalmente */
+    width: 35%;
+    border: white; /* Cria a borda em torno da div/texto */
+    margin-top: 0px;
+    border-radius: 20px; /* Borda com curvatura */
+    font-family: robot; /* Definir uma fonte padrão para o texto */
+    padding: 15px 20px; /* Margem interna de 15 pixels no topo e na parte inferior, 20 pixels nas laterais */
+  }
+  
+  .textobemvindo h1 { 
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .textobemvindo h2 { 
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  
+  .bloconovocadastro {
+    background-color: rgba(245, 245, 245, 0.8); /* Cor whitesmoke com 80% de opacidade */
+    font-weight: bold;
+    font-size: 15px;
+    color: #4b0082;
+    margin: auto; /* Centraliza horizontalmente */
+    width: 35%;
+    border: white; /* Cria a borda em torno da div/texto */
+    margin-top: 20px;
+    border-radius: 20px; /* Borda com curvatura */
+    font-family: robot; /* Definir uma fonte padrão para o texto */
+    padding: 15px 20px; /* Margem interna de 15 pixels no topo e na parte inferior, 20 pixels nas laterais */
+  } 
+  
+  .bloconovocadastro h3 { 
+    font-size: 15px;
+  }
+  
+  .bloconovocadastro p { 
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"],
+  input[type="senha"],
+  input[type="cpf"],
+  input[type="nomeanimal"],
+  input[type="nome"],
+  input[type="tipoanimal"]
+  {
+    background-color: rgba(245, 245, 245, 0.95); /* Cor whitesmoke com 95% de opacidade */
+    font-size: 15px;
+    border: none;
+    border-radius: 20px; /* Borda com curvatura */
+    font-family: robot; /* Definir uma fonte padrão para o texto */
+    padding: 10px; /* Margem interna de 10 pixels em todos os lados */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  input[type="acessar"] {
+    background-color: rgba(75, 0, 130, 0.7); /* Cor com opacidade */
+    color: whitesmoke;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px; /* Borda com curvatura */
+    font-family: robot; /* Definir uma fonte padrão para o texto */
+    padding: 10px; /* Margem interna de 10 pixels em todos os lados */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  a[href="inicio.html"] {
+    background-color: rgba(75, 0, 130, 0.7); /* Cor com opacidade */
+    color: whitesmoke;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px; /* Borda com curvatura */
+    font-family:robot; /* Definir uma fonte padrão para o texto */
+    padding: 10px; /* Margem interna de 10 pixels em todos os lados */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+  }
+  
+  a[href="efetuarcadastro"] {
+    background-color: rgba(75, 0, 130, 0.7); /* Cor com opacidade */
+    color: whitesmoke;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px; /* Borda com curvatura */
+    font-family: robot; /* Definir uma fonte padrão para o texto */
+    padding: 10px; /* Margem interna de 10 pixels em todos os lados */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+  }
+  
+  input a[href="efetuarcadastro"]:hover,
+    a[href="cadastro"]:hover,
+    a[href="inicio.hmtl"]:hover {
+      color: #000; /* Altera a cor do texto para preto ao passar o mouse por cima */
+      text-decoration:none;
+    }
+  
+  
+  /* Media queries para telas menores */
+  @media only screen and (max-width: 768px) {
+    .site-content {
+        font-family: robot;
+        text-align: center; /* Centraliza o texto dentro da div .site-content */
+    }
+    
+    #imagemdefundo {
+        background-image: url("https://i.pinimg.com/originals/e5/d1/c7/e5d1c72c43786ad429213b3a0e07c3ff.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        align-items: center;
+        margin: 0;
+        padding: 50px 0; /* Adiciona um espaçamento de 50px no topo e 0 nas laterais */
+        min-height: 100vh;
+    }
+    
+    .textobemvindo {
+        background-color: rgba(245, 245, 245, 0.8); /* Cor whitesmoke com 80% de opacidade */
+        color: #4b0082;
+        margin: auto; /* Centraliza horizontalmente */
+        width: 80%; /* Alterado para ocupar 80% da largura da tela em dispositivos menores */
+        border: white; /* Cria a borda em torno da div/texto */
+        margin-top: 0px;
+        margin-bottom: 10px;
+        border-radius: 20px; /* Borda com curvatura */
+        font-family: robot; /* Definir uma fonte padrão para o texto */
+        padding: 15px 20px; /* Margem interna de 15 pixels no topo e na parte inferior, 20 pixels nas laterais */
+    }
+    
+    .textobemvindo h1 { 
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .textobemvindo h2 { 
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    
+    .bloconovocadastro {
+        background-color: rgba(245, 245, 245, 0.8); /* Cor whitesmoke com 80% de opacidade */
+        font-weight: bold;
+        font-size: 15px;
+        color: #4b0082;
+        margin: auto; /* Centraliza horizontalmente */
+        width: 80%; /* Alterado para ocupar 80% da largura da tela em dispositivos menores */
+        border: white; /* Cria a borda em torno da div/texto */
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border-radius: 20px; /* Borda com curvatura */
+        font-family: robot; /* Definir uma fonte padrão para o texto */
+        padding: 15px 20px; /* Margem interna de 15 pixels no topo e na parte inferior, 20 pixels nas laterais */
+    } 
+    
+    .bloconovocadastro h3 { 
+        font-size: 15px;
+    }
+    
+    .bloconovocadastro p { 
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    input[type="email"],
+    input[type="senha"],
+    input[type="cpf"],
+    input[type="nomeanimal"],
+    input[type="nome"],
+    input[type="tipoanimal"]
+    {
+        background-color: rgba(245, 245, 245, 0.95); /* Cor whitesmoke com 95% de opacidade */
+        font-size: 15px;
+        border: none;
+        border-radius: 20px; /* Borda com curvatura */
+        font-family: robot; /* Definir uma fonte padrão para o texto */
+        padding: 10px; /* Margem interna de 10 pixels em todos os lados */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    input  a[href="efetuarcadastro"],
+    a[href="cadastro"],
+    a[href="inicio.html"]
+    {
+        background-color: rgba(75, 0, 130, 0.7); /* Cor com opacidade */
+        color: whitesmoke;
+        font-size: 15px;
+        border: none;
+        border-radius: 20px; /* Borda com curvatura */
+        font-family: robot; /* Definir uma fonte padrão para o texto */
+        padding: 10px; /* Margem interna de 10 pixels em todos os lados */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    input[type="acessar"]:hover,
+    a[href="efetuarcadastro"]:hover,
+    a[href="inicio.html"]:hover {
+        color: #000; /* Altera a cor do texto para preto ao passar o mouse por cima */
+        text-decoration:none;
+    }
+    
+  }
